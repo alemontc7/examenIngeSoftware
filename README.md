@@ -12,3 +12,5 @@ npm test
 
 Ejecutar pruebas de unidad solo una vez:
 npm run test-once
+
+Alejandro Montero Coca - Examen de Inge software 1
