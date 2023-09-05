@@ -13,6 +13,14 @@ class frase
   {
     return this.laFrase;
   }
+  getFraseEnMinusculas()
+  {
+    return this.laFrase.toLowerCase();
+  }
+  getPalabraEnMinusculas(palabra)
+  {
+    return palabra.toLowerCase();
+  }
 }
 
 export default frase;
