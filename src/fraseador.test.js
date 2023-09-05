@@ -1,7 +1,7 @@
-//import sumar from "./fraseador.js";
-
-//describe("Sumar", () => {
-//  it("deberia sumar dos numeros", () => {
-//    expect(sumar(3, 2)).toEqual(5);
-//  });
-//});
+import frase from "./fraseador.js";
+describe("Palabrear", () => {
+  it("deberia retornar AB", () => {
+    const palabreador = new frase("AB CD");
+    expect(palabreador.getPrimeraPalabra()).toEqual("AB");
+  });
+});
