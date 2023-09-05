@@ -11,7 +11,7 @@ form.addEventListener("submit", (event) => {
   div.innerHTML += "<br> Primera palabra de la frase es:" + palabreador.getPrimeraPalabra() ;
   div.innerHTML += "<br> Frase en minusculas es:" + palabreador.getFraseEnMinusculas() ;
   div.innerHTML += "<br> Primera palabra en minuculas:" + palabreador.getPalabraEnMinusculas(palabreador.getPrimeraPalabra()) ;
-
-
+  const listaPalabrasLimpias = palabreador.getListaDePalabrasLimpiadas();
+  div.innerHTML += `<br> lista palabras completas ${listaPalabrasLimpias}`;
 
 });
