@@ -31,7 +31,6 @@ class frase
         if(frase1[elemento] != "-" && frase1[elemento] != "," && frase1[elemento] != "." && frase1[elemento] != ";")
         {
           array.push(frase1[elemento]);
-          
         }
     }
     return array;
